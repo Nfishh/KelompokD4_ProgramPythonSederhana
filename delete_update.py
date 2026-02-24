@@ -1,3 +1,11 @@
+def menu_edit(data):
+    """
+    Fungsi untuk menghapus tugas atau mengubah status menjadi selesai.
+    Parameter:
+        data (list): daftar tugas
+    Return:
+        list: data yang sudah diperbarui
+    """
 
 def menu_edit(data):
     id_target = int(input("Masukkan ID tugas: "))
