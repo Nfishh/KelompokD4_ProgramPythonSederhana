@@ -1,4 +1,4 @@
-def menu_edit(data):
+def docum_menu_edit(data):
     """
     Menghapus tugas berdasarkan ID
     atau mengubah status tugas menjadi 'Selesai'.
