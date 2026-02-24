@@ -1,4 +1,4 @@
-def docum_menu_edit(data):
+def menu_edit(data):
     """
     Menghapus tugas berdasarkan ID
     atau mengubah status tugas menjadi 'Selesai'.
@@ -7,8 +7,7 @@ def docum_menu_edit(data):
     Return:
         list: data yang telah diperbarui
     """
-
-def menu_edit(data):
+    
     id_target = int(input("Masukkan ID tugas: "))
     for t in data:
         if t['id'] == id_target:
